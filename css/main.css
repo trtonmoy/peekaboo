@@ -1040,4 +1040,16 @@ p {
   .contract .col-8 {
     width: 100%;
   }
+  .techrate_text {
+    padding: 0 20px;
+  }
+  .features-title {
+    padding: 0 10px;
+  }
+  .feat-list {
+    padding: 0 30px;
+  }
+  .roadmap_sub_text {
+    padding: 0 20px;
+  }
 }
