@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>kakashi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/new-logo.png" sizes="16x16" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/animation.css">
+
+</head>
+
+<body>
+  <div class="main_page_outer homepage">
+    <div class="home_banner_outer">
+      <div class="header">
+        <div class="container" id="home">
+          <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html"><img style="width: 80px;" src="images/new-logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span><img src="images/menu.svg" alt="icon" height="30" /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav align-items-center ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#nft">NFT</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#roadmap">Roadmap</a>
+                </li>
+                <li class="nav-item">
+                  <a class="red_btn" href="chartlink">Chart</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="home_banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center order-lg-2 animate__animated animate__fadeInRight">
+              <img src="images/coins.png" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 animate__animated animate__fadeInLeft">
+              <div class="home_banner_text">
+                <p>Kakashi Trade</p>
+                <h1>  The Copy  <br /><span>Ninja Bot</span></h1>
+                <div class="button_group">
+                  <!--<a href="javascript:void(0)" class="red_btn me-sm-3 me-0" data-bs-toggle="modal" data-bs-target="#myModal">How To Buy</a> -->
+                  <!-- <a href="tglink" class="red_btn me-sm-3 me-0">We're LIVE <br/> Contract : 0x0000000000000000000000000000 </a> -->
+                  <!-- <button class="red_btn me-sm-3 me-0" onclick="myFunction()">We're LIVE</button> -->
+                  <a href="buylink" target="_blank" class="outline_btn" style="margin-top: 10px;">Buy Now</a>
+
+                  <div class="row align-items-center contract" onclick="myFunction()">
+                    <div class="col-2">
+                      <label for="myInput">Contract :</label>
+                    </div>
+                    <div class="col-8 ps-0">
+                      <input class="form-control  contract_input" type="text"
+                        value=" 0x0000000000000000000000000000" disabled id="myInput">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="round_shadow">
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="video_app_outer">
+
+      <div class="video_section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12 slide_up">
+              <div class="video_wrapper">
+
+                <iframe width="100%" height="550" src="https://www.youtube.com/embed/CPE4Wj_jB7c"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app_section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 com-sm-12 slide_left">
+              <div class="image_with_shadow text-md-center pe-xl-4">
+                <img src="images/mobile_app.png" alt="app" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 com-sm-12 slide_right">
+              <div class="app_right_text  mt-lg-0 mt-sm-5 mt-4 ps-xl-4">
+                <h2 class="common_heading mb-4">Install Roshambo<br /> App Soon!</h2>
+                <p>Connect with like-minded people, Earn and Grow as a Community.</p>
+                <div class="store_links mt-sm-4 mt-3">
+                  <a href="" style="pointer-events: none;" class="me-sm-3 me-0 mb-sm-0 mb-3"><img
+                      src="images/playstore.svg" alt="playstore"></a>
+                  <a href="" style="pointer-events: none;"><img src="images/applestore.svg" alt="applestore"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="tokenomics_section">
+      <div class="container" id="tokenomics">
+        <h2 class="common_heading mb-lg-5 mb-0 text-center">Tokenomics</h2>
+        <div class="row bg_ripper align-items-center">
+          <div class="col-xl-6 col-lg-5 text-md-center zoom_in">
+            <img src="images/bitcoin_lady.png" alt="coin" class="img-fluid">
+          </div>
+          <div class="col-xl-6 col-lg-7">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-sm-12 col-12 ">
+                <div class="tokenomics_card  mb-4 zoom_in">
+                  <img src="images/buy_tax.svg" alt="icon">
+                  <h4>0%</h4>
+                  <h3>BUY TAX</h3>
+                  <p>
+                    <!-- <ul>
+                    <li>2% LP</li>
+                    <li>1% Marketing</li>
+                    <li>1% Reflections</li>
+                    <li>1% Reward</li>
+                    <li>1% Burn</li>
+                  </ul> -->
+                  </p>
+                </div>
+                <div class="tokenomics_card mb-md-0 mb-4 zoom_in">
+                  <img src="images/sell_tax.svg" alt="icon">
+                  <h4>0%</h4>
+                  <h3>SELL TAX</h3>
+                  <p>
+                    <!-- <ul>
+                    <li>3% LP</li>
+                    <li>2% Marketing</li>
+                    <li>1% Reflections</li>
+                    <li>2% Reward</li>
+                    <li>1% Burn</li>
+                  </ul> -->
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-12">
+                <div class="tokenomics_card zoom_in">
+                  <img src="images/trans_tax.svg" alt="icon">
+                  <h4>0%</h4>
+                  <h3>TRANSFER TAX</h3>
+                  <p>
+                    <!-- <ul>
+                    <li>2% LP</li>
+                    <li>1% Marketing</li>
+                    <li>1% Reflections</li>
+                    <li>1% Reward</li>
+                    <li>1% Burn</li>
+                  </ul> -->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="info_outer">
+      <div class="container">
+        <div class="info_card slide_up">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="info_text">
+                <img src="images/price_per_bilion.svg" alt="icon"/>
+                <h3>$ 1.231782</h3>
+                <span>Price Per Billion</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="info_text">
+                <img src="images/holders.svg" alt="icon"/>
+                <h3>400,000+</h3>
+                <span>Holders</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="info_text">
+                <img src="images/marketcap.svg" alt="icon"/>
+                <h3>$ 50,225,807</h3>
+                <span>Marketcap</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="info_text">
+                <img src="images/total_supply.svg" alt="icon"/>
+                <h3>100,000,000,000,000</h3>
+                <span>Total Supply</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="info_text">
+                <img src="images/total_burnt.svg" alt="icon"/>
+                <h3>59,151,023,066,294</h3>
+                <span>Total Burnt</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="info_text">
+                <img src="images/circulating_supply.svg" alt="icon"/>
+                <h3>40,848,972,623,644</h3>
+                <span>Circulating Supply</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="techrate_audit">
+      <div class="container" id="audit">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            <h2 class="common_heading mb-lg-5 mb-4">Kakashi</h2>
+          </div>
+          <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 mb-lg-0 mb-3 slide_left">
+            <img src="images/techrate.png" alt="image" class="img-fluid">
+          </div>
+          <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 slide_right">
+            <div class="techrate_text">
+
+              <h3>Know About Kakashi</h3>
+              <p>Step into the world of KakashiTrade, where the spirit of the legendary copy ninja from Naruto comes to life in the realm of trading. KakashiTrade is a cutting-edge copy trading bot designed exclusively for private groups, allowing users to harness the power of the "Copy Jutsu" technique in the financial markets. <br>  Embrace the art of mimicry as you effortlessly replicate the trading strategies of skilled traders within your exclusive community. With KakashiTrade, you don't just follow trades – you become a trading ninja, mastering the markets with precision and agility.</p>
+              <a href="tglink" class="red_btn">Join Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nft_section">
+      <div class="container" id="nft">
+        <h2 class="common_heading text-center mb-lg-5 mb-sm-4 mb-2">Features Of Takashi</h2>
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 col-sm-12 text-lg-end text-center mb-lg-0 mb-4 order-lg-2 slide_right">
+            <img src="images/nft_image.svg" alt="image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 slide_left">
+            <div class="nft_text">
+              
+              <p>Become a master of the financial markets with KakashiTrade:
+              </p>
+              <ul>
+                <li><b>Copy Jutsu Technology</b>: Utilize advanced algorithms inspired by the legendary Copy Jutsu to replicate successful trading strategies within your private grou </li>
+                <li><b>Private Group Integration</b>: Connect with like-minded traders in private groups to share and replicate strategies securely. </li>
+                <li><b>Real-time Trade Execution</b>: Instantly execute copied trades in real-time to capitalize on market opportunities swiftly.</li>
+                <li>
+                  <b>Risk Management Tools</b>: Set personalized risk parameters to ensure a tailored trading experience that aligns with your risk tolerance.
+                </li>
+                <li>
+                  <b>Performance Analytics</b>: Gain insights into the success of your copied strategies with detailed performance analytics and reports.
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="team_section">
+      <div class="container">
+        <h2 class="common_heading text-center">Community Volunteers Team</h2>
+        <div class="row team_bg slide_up">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="team_card">
+              <img src="images/team-1.png" alt="team"/>
+              <h3>Kevin D. Farrel</h3>
+              <span>Software Engineer, Development</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="team_card">
+              <img src="images/team-1.png" alt="team"/>
+              <h3>Kevin D. Farrel</h3>
+              <span>Software Engineer, Development</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="team_card">
+              <img src="images/team-1.png" alt="team"/>
+              <h3>Kevin D. Farrel</h3>
+              <span>Software Engineer, Development</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="team_card">
+              <img src="images/team-1.png" alt="team"/>
+              <h3>Kevin D. Farrel</h3>
+              <span>Software Engineer, Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="roadmap_section">
+      <div class="container" id="roadmap">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="common_heading text-center">RoadMap</h2>
+            <p class="roadmap_sub_text">Short, medium and long term goals of Roshambo</p>
+          </div>
+          <div class="col-12 d-xl-none d-block zoom_in">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="roadmap_card list1">
+                  <img src="images/list1.svg" / alt="list icon" />
+                  <h5>Q2 2023</h5>
+                  <span>Market Research and Analysis, <br /> Developing Roshambo Smart Contract & Audit, <br /> FAIR
+                    LAUNCH ON UNISWAP. <br /> Sharing Mobile Application Desgins with the Community, <br /> Listing on
+                    CoinGecko & CoinMarketCap [CG || CMC] </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="roadmap_card list2">
+                  <img src="images/list2.svg" / alt="list icon" />
+                  <h5>Q3 2023</h5>
+                  <span>Big Marketing Campaign on Twitter & Youtube, <br /> Appointing a Big and known Influencer for
+                    brand marketing, <br /> Releasing Pre-Order for Roshambo Mobile Application <br> Multiple T-1,2,3
+                    Tier Exchanges, <br /> Introducing Roshambo NFTs</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="roadmap_card list3">
+                  <img src="images/list3.svg" / alt="list icon" />
+                  <h5>Q4 2023</h5>
+                  <span>Roshambo Mobile Application Global Launch , <br />NFT integration into Roshambo Mobile
+                    Application <br /> Redeem your Roshambo Tokens from Roshambo Mobile Application.</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="roadmap_card list4">
+                  <img src="images/list4.svg" / alt="list icon" />
+                  <h5>Q1 2024</h5>
+                  <span>INTRODUCING METAVERSE...'2024', The Next Generation Social Virtual Reality Platform!
+                    <br />VALHALLA </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="roadmap_image d-xl-block d-none zoom_in">
+        <img src="images/Roadmap2.png" alt="roadmap" class="img-fluid" />
+        <div class="roadmap_line list_one_text">
+          <h5>Q2 2023</h5>
+          <span>Market Research & Analysis, <br /> Developing Roshambo Smart Contract & Audit, <br /> FAIR LAUNCH ON
+            UNISWAP, <br /> Sharing Mobile Application Desgins with the Community, <br /> Listing on CoinGecko &
+            CoinMarketCap [CG || CMC] </span>
+        </div>
+        <div class="roadmap_line list_two_text">
+          <h5>Q3 2023</h5>
+          <span>Big Marketing Campaign on Twitter & Youtube, <br /> Appointing a Big and known Influencer for brand
+            marketing, <br /> Releasing Pre-Order for Roshambo Mobile Application <br> Multiple T-1,2,3 Tier
+            Exchanges.</span>
+        </div>
+        <div class="roadmap_line list_three_text" id="Q4Line">
+          <h5>Q4 2023</h5>
+          <span></span><br />Roshambo Mobile Application Global Launch , <br />NFT integration into Mobile Application &
+          Redeem your Roshambo Tokens feature.</span>
+        </div>
+        <div class="roadmap_line list_four_text">
+          <h5>Q1 2024</h5>
+          <span>INTRODUCING ROSHAMBO METAVERSE...'2024', The Next Generation Social Virtual Reality Platform! VALHALLA
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="footer_section footer_line">
+      <div class="footer_content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <div class="logo">
+                <img src="images/new-logo.png" alt="logo">
+              </div>
+              <div class="footer_link">
+                <ul>
+                  <li><a href="#home">HOME</a></li>
+                  <li><a href="#tokenomics">TOKENOMICS</a></li>
+                  <li><a href="#audit">AUDIT</a></li>
+                  <li><a href="#features">FEATURES</a></li>
+                  <!-- <li><a href="#nft">NFT</a></li> -->
+                  <li><a href="#roadmap">ROADMAP</a></li>
+                </ul>
+              </div>
+              <div class="social_link">
+                <ul>
+                  <li><a href="tglink" target="_blank"><img src="images/social/tg.png"
+                        alt="icon"></a>
+                  </li>
+                  <li><a href="twitterlink" target="_blank"><img src="images/social/twitter.png"
+                        alt="icon"></a>
+                  </li>
+                  <!-- <li><a href="https://www.reddit.com/user/RoshamboCommunity" target="_blank"><img
+                        src="images/social/reddit.png" alt="icon"></a>
+                  </li>
+                  <li><a href="https://medium.com/@Roshambo.Community/roshambo-the-next-generation-social-platform-bbfef7db3985" target="_blank"><img
+                        src="images/social/medium.png" alt="icon"></a>
+                  </li> -->
+                  <!-- <li><a href="https://www.youtube.com/channel/UCUwNVnF8n9rqZV4IEhE-hqw" target="_blank"><img src="images/social/youtube.png" alt="icon"></a>
+                  </li> -->
+                </ul>
+              </div>
+              <p class="copy_right">For any Inquiries, Join Our Community </p>
+              <p class="copy_right">Copyright © 2023 Kakashi. All rights reserved.</p>
+              <!-- <img src="./images/ros32.png" alt="logo32*32" />
+              <img src="./images/ROS_100x100.jpg" alt="logo100*100" /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal  -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg my_modal">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">How To Buy</h4>
+          <button type="button" class="close_popup" data-bs-dismiss="modal"><img src="images/close.png" /></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <ul class="list_modal">
+            <li><span>1</span>
+              <p>Lorem ipsum dolor sit amet</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa, amet et
+              aliquam viverra amet sem purus. Quam fringilla id viverra eget. Quis sollicitudin ac.
+            </li>
+            <li><span>2</span>
+              <p>Consectetur adipiscing elit.</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui sed duis
+              faucibus hendrerit. Tristique vel faucibus nunc in ultricies sit bibendum neque mauris.
+            </li>
+            <li><span>3</span>
+              <p>Aliquam ut ex tristique ultricies massa</p>Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+            </li>
+            <li><span>4</span>
+              <p>On the other hand</p>That they cannot foresee the pain and trouble that are bound to ensue; and equal
+              blame belongs to those who fail in their duty through
+            </li>
+            <li><span>5</span>
+              <p>Repudiated and annoyances accepted</p>Similique sunt in culpa qui officia deserunt mollitia animi, id
+              est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- modal done  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    // To copy the contract address
+    function myFunction() {
+      // Get the text field
+      var copyText = document.getElementById("myInput");
+
+      // Select the text field
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); // For mobile devices
+
+      // Copy the text inside the text field
+      navigator.clipboard.writeText(copyText.value);
+
+      // Alert the copied text
+
+    }
+
+    $('.vedio_tag').parent().click(function () {
+      if ($(this).children(".vedio_tag").get(0).paused) {
+        $(this).children(".vedio_tag").get(0).play();
+        $(this).children(".playpause").fadeOut();
+      } else {
+        $(this).children(".vedio_tag").get(0).pause();
+        $(this).children(".playpause").fadeIn();
+      }
+    });
+
+    $(window).scroll(function () {
+
+      $('.slide_up').each(function () {
+        if ($(window).scrollTop() > $(this).offset().top - $(window).height() + 150) {
+          $(this).addClass('animate__animated animate__slideInUp opacity1');
+        }
+      });
+      $('.slide_left').each(function () {
+        if ($(window).scrollTop() > $(this).offset().top - $(window).height() + 150) {
+          $(this).addClass('animate__animated animate__fadeInLeft opacity1');
+        }
+      });
+      $('.slide_right').each(function () {
+        if ($(window).scrollTop() > $(this).offset().top - $(window).height() + 150) {
+          $(this).addClass('animate__animated animate__fadeInRight opacity1');
+        }
+      });
+      $('.zoom_in').each(function () {
+        if ($(window).scrollTop() > $(this).offset().top - $(window).height() + 150) {
+          $(this).addClass('animate__animated animate__zoomIn opacity1');
+        }
+      });
+
+
+    });
+  </script>
+</body>
+
+</html>
