@@ -1,22 +1,22 @@
 @font-face {
-    font-family: Alphacentauri;
-    src: url(../fonts/Alphacentauri.ttf);
+  font-family: Alphacentauri;
+  src: url(../fonts/Alphacentauri.ttf);
 }
 @font-face {
-    font-family: BeVietnamPro-900;
-    src: url(../fonts/BeVietnamPro-ExtraBold.ttf);
+  font-family: BeVietnamPro-900;
+  src: url(../fonts/BeVietnamPro-ExtraBold.ttf);
 }
 
- .home_banner_outer{
-     overflow-y: hidden;
- }
-
-body{
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
+.home_banner_outer {
+  overflow-y: hidden;
 }
-.homepage{
-    background-color: #141415;
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.homepage {
+  background-color: #141415;
 }
 
 /* #home{
@@ -26,1011 +26,1018 @@ body{
 } */
 
 /* common  */
-@media (min-width:1750px){
-    .container{
-        max-width:1630px;
-    }
+@media (min-width: 1750px) {
+  .container {
+    max-width: 1630px;
+  }
 }
-@media (max-width:1500px){
-    .container{
-        max-width:100%;
-    }
+@media (max-width: 1500px) {
+  .container {
+    max-width: 100%;
+  }
 }
 
-
-a{
-    color: #fff;
-    text-decoration: none;
+a {
+  color: #fff;
+  text-decoration: none;
 }
-a:hover{
-    color: inherit;
+a:hover {
+  color: inherit;
 }
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
 }
-.common_heading{
-    font-family: Alphacentauri;
-    font-size: 48px;
-    line-height: 60px;
-    text-shadow:  4px 4px 10px #CF1545;
-    -webkit-text-stroke-width: 1px;
+.common_heading {
+  font-family: Alphacentauri;
+  font-size: 48px;
+  line-height: 60px;
+  text-shadow: 4px 4px 10px #cf1545;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-.red_btn{
-    background-color: #CF1545;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px 64px;
-    border-radius: 50px;
-    color: #fff;
-    border: 2px solid #CF1545;
-    display: inline-block;
+.red_btn {
+  background-color: #cf1545;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 64px;
+  border-radius: 50px;
+  color: #fff;
+  border: 2px solid #cf1545;
+  display: inline-block;
 }
-.outline_btn{
-    background-color: transparent;
-    border: 2px solid #CF1545;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px 36px;
-    border-radius: 50px;
-    display: inline-block;
+.outline_btn {
+  background-color: transparent;
+  border: 2px solid #cf1545;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 36px;
+  border-radius: 50px;
+  display: inline-block;
 }
 /* header  */
-.header .nav-link{
-    color: #fff;
-    font-size: 18px;
+.header .nav-link {
+  color: #fff;
+  font-size: 18px;
 }
 .header .navbar-nav .nav-item:not(:last-child) {
-    margin-right: 45px;
+  margin-right: 45px;
 }
 /* header  done*/
-.home_banner{
-    background-image: url(../images/dots_banner.png);
-    background-repeat: no-repeat;
-    background-position: top 30px left;
-    position: relative;
-    max-width: 1920px;
-    margin: 0 auto;
+.home_banner {
+  background-image: url(../images/dots_banner.png);
+  background-repeat: no-repeat;
+  background-position: top 30px left;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .round_shadow {
-    position: absolute;
-    height: 150px;
-    width: 101px;
-    left: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.5);
-    filter: blur(106px);
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
+  position: absolute;
+  height: 150px;
+  width: 101px;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  filter: blur(106px);
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
 }
 
-.home_banner_outer{
-    background-image: url(../images/home_banner_bg.png), url(../images/line_banner_home.png);
-    background-position: center, bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 300px;
+.home_banner_outer {
+  background-image: url(../images/home_banner_bg.png),
+    url(../images/line_banner_home.png);
+  background-position: center, bottom;
+  background-repeat: no-repeat;
+  /* padding-bottom: 300px; */
 }
-.home_banner_text p{
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+.home_banner_text p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
-.home_banner_text h1{
-    font-family: Alphacentauri;
-    font-size: 110px;
-    line-height: 110px;
-    letter-spacing: -5px;
+.home_banner_text h1 {
+  font-family: Alphacentauri;
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -5px;
 }
-.home_banner_text h1 span{
-    font-family: BeVietnamPro-900;
-    text-transform: uppercase;
-    font-size: 120px;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #fff;
+.home_banner_text h1 span {
+  font-family: BeVietnamPro-900;
+  text-transform: uppercase;
+  font-size: 120px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
 }
 
-.home_banner_text .button_group{
-    margin-top: 25px;
+.home_banner_text .button_group {
+  margin-top: 25px;
 }
 /* video and app section  */
-.video_app_outer{
-    background-image: url(../images/riple_bg_red.png);
-    background-repeat: no-repeat;
-    background-position: right -200px center;
-    background-size: 400px;
-    max-width: 1920px;
-    margin: -70px auto 0 auto;
+.video_app_outer {
+  background-image: url(../images/riple_bg_red.png);
+  background-repeat: no-repeat;
+  background-position: right -200px center;
+  background-size: 400px;
+  max-width: 1920px;
+  margin: -70px auto 0 auto;
 }
-.video_section{
-    padding-bottom: 100px;
+.video_section {
+  padding-bottom: 100px;
 }
-.video_wrapper{
-    position: relative;
+.video_wrapper {
+  position: relative;
 }
-.vedio_tag{
-    object-fit: cover;
-    border-radius: 40px;
+.vedio_tag {
+  object-fit: cover;
+  border-radius: 40px;
 }
-.playpause{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.3);
-    background-position: center;
-    background-image: url(../images/play_btn.png);
-    background-repeat: no-repeat;
-    border-radius: 40px;
-    background-size: 80px;
+.playpause {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: center;
+  background-image: url(../images/play_btn.png);
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  background-size: 80px;
 }
-.app_section{
-    padding-top: 100px;
+.app_section {
+  padding-top: 100px;
 }
-.image_with_shadow img{
-    -webkit-filter: drop-shadow(0 0 30px rgba(207, 21, 69, 0.2));
-    filter: drop-shadow(0 0 30px rgba(207, 21, 69, 0.2));
+.image_with_shadow img {
+  -webkit-filter: drop-shadow(0 0 30px rgba(207, 21, 69, 0.2));
+  filter: drop-shadow(0 0 30px rgba(207, 21, 69, 0.2));
 }
-.store_links{
-    margin-top: 15px;
+.store_links {
+  margin-top: 15px;
 }
 
 /* tokenomics section */
-.tokenomics_section{
-    padding-top: 250px;
-    background-image: url(../images/line_tokeno_section.png);
-    background-repeat: no-repeat;
-    background-position: top center;
+.tokenomics_section {
+  padding-top: 250px;
+  background-image: url(../images/line_tokeno_section.png);
+  background-repeat: no-repeat;
+  background-position: top center;
 }
-.tokenomics_card{
-    background: linear-gradient(148.1deg, rgba(0, 0, 0, 0.5) 0%, rgba(58, 58, 58, 0) 100%);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 1px 24px -1px rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(24px);
-    border-radius: 20px;
-    padding: 65px 10px 50px 10px;
-    text-align: center;
+.tokenomics_card {
+  background: linear-gradient(
+    148.1deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(58, 58, 58, 0) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 24px -1px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+  border-radius: 20px;
+  padding: 65px 10px 50px 10px;
+  text-align: center;
 }
-.tokenomics_card h4{
-    margin: 25px 0 21px 0;
-    font-size: 40px;
-    line-height: 44px;
-    font-weight: 700;
+.tokenomics_card h4 {
+  margin: 25px 0 21px 0;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
 }
-.tokenomics_card h3{
-    margin-bottom:15px;
-    font-size: 24px;
-    line-height: 45px;
-    font-weight: 600;
+.tokenomics_card h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 600;
 }
-.tokenomics_card p{
-    margin-bottom: 0;
-    font-size: 20px;
-    color: #ADAFBB;
-    line-height: 33px;
+.tokenomics_card p {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #adafbb;
+  line-height: 33px;
 }
-.tokenomics_card  ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.tokenomics_card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.tokenomics_card  ul li {
-    margin-bottom: 0;
-    font-size: 20px;
-    color: #ADAFBB;
-    line-height: 33px;
+.tokenomics_card ul li {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #adafbb;
+  line-height: 33px;
 }
-.bg_ripper{
-    background-image: url(../images/riple_bg_red.png),url(../images/riple_bg_red.png);
-    background-size: 175px,175px;
-    background-position: bottom center,top 120px right 18%;
-    background-repeat: no-repeat;
-    padding-bottom: 70px;
+.bg_ripper {
+  background-image: url(../images/riple_bg_red.png),
+    url(../images/riple_bg_red.png);
+  background-size: 175px, 175px;
+  background-position: bottom center, top 120px right 18%;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
 }
 
 /* info card  */
-.info_card{
-    background: linear-gradient(180deg, #000000 0%, #101010 134.82%);
-    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.3);
-    border-radius: 40px;
-    padding: 40px 5px 35px 5px;
-    margin-top: 114px;
+.info_card {
+  background: linear-gradient(180deg, #000000 0%, #101010 134.82%);
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  padding: 40px 5px 35px 5px;
+  margin-top: 114px;
 }
-.info_text{
-    text-align: center;
-    padding: 15px 10px;
+.info_text {
+  text-align: center;
+  padding: 15px 10px;
 }
-.info_text h3{
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 50px;
-    margin: 20px 0 5px 0;
+.info_text h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 20px 0 5px 0;
 }
-.info_text span{
-    color: #ADAFBB;
-    font-size: 20px;
-    line-height: 33px;
+.info_text span {
+  color: #adafbb;
+  font-size: 20px;
+  line-height: 33px;
 }
 
 /* Techrate Audit section */
-.techrate_audit
-{
-    padding: 210px 0 320px 0;
-    background-image: url(../images/techrate_line.png);
-    background-repeat: no-repeat;
-    background-position: bottom center;
+.techrate_audit {
+  padding: 210px 0 320px 0;
+  background-image: url(../images/techrate_line.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 /* .techrate_text{
     text-align: center;
 } */
-.techrate_text h3{
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom:  10px ;
+.techrate_text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
-.techrate_text p{
-    color:#C4CADA;
-    line-height: 35px;
-    margin-bottom: 15px;
-    font-size: 17px;
+.techrate_text p {
+  color: #c4cada;
+  line-height: 35px;
+  margin-bottom: 15px;
+  font-size: 17px;
 }
 .nft_section {
-    background: linear-gradient(rgba(0, 0, 0, 0) 18%,#000000 70.31%);
-    padding-bottom: 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0) 18%, #000000 70.31%);
+  padding-bottom: 70px;
 }
-.nft_text h3{
-    color: #C4CADA;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 50px;
-    margin: 15px 0 35px 0 ;
+.nft_text h3 {
+  color: #c4cada;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 15px 0 35px 0;
 }
-.nft_text p{
-    color: #C4CADA;
-    line-height: 40px;
-    margin-bottom: 35px;
+.nft_text p {
+  color: #c4cada;
+  line-height: 40px;
+  margin-bottom: 35px;
 }
-.nft_text ul{
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
+.nft_text ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
 .nft_text ul li {
-    background-image: url('../images/list_icon.svg');
-    background-position: left top;
-    background-repeat: no-repeat;
-    padding-left: 55px;
-    color: #C4CADA;
-    font-size: 18px;
-    line-height: 40px;
-    margin-bottom: 25px;
+  background-image: url("../images/list_icon.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  color: #c4cada;
+  font-size: 18px;
+  line-height: 40px;
+  margin-bottom: 25px;
 }
-.team_section{
-    padding: 230px 0 50px 0;
-    background-image: url(../images/Dotted.png),url(../images/Dotted.png);
-    background-repeat: no-repeat,no-repeat;
-    background-position: left top 300px, right bottom;
+.team_section {
+  padding: 230px 0 50px 0;
+  background-image: url(../images/Dotted.png), url(../images/Dotted.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top 300px, right bottom;
 }
 .team_section .common_heading {
-    margin-bottom: 130px;
+  margin-bottom: 130px;
 }
-.team_section .team_bg{
-    background: linear-gradient(180deg, #000000 0%, rgba(20, 20, 21, 0) 69.96%);
-    filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.3));
-    z-index: 99;
+.team_section .team_bg {
+  background: linear-gradient(180deg, #000000 0%, rgba(20, 20, 21, 0) 69.96%);
+  filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.3));
+  z-index: 99;
 }
-.team_bg .col-lg-3{
-    padding: 0;
+.team_bg .col-lg-3 {
+  padding: 0;
 }
-.team_card{
-    text-align: center;
-    padding: 100px 20px;
+.team_card {
+  text-align: center;
+  padding: 100px 20px;
 }
-.team_card img{
-    border-radius: 50%;
-    height: 155px;
-    width: 155px;
-    border: 10px solid #fff;
-    object-fit: cover;
-    object-position: center;
-    margin-bottom: 40px;
+.team_card img {
+  border-radius: 50%;
+  height: 155px;
+  width: 155px;
+  border: 10px solid #fff;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 40px;
 }
-.team_card h3{
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 45px;
+.team_card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 45px;
 }
-.team_card span{
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
+.team_card span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
 }
-.team_card:hover{
-    background: #000000;
-    box-shadow: 4px -2px 40px rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    transform: translate(0,-54px);
-    transition-duration: 0.3s;
+.team_card:hover {
+  background: #000000;
+  box-shadow: 4px -2px 40px rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transform: translate(0, -54px);
+  transition-duration: 0.3s;
 }
-.team_card:hover img{
-    border: 10px solid #EC244E;
+.team_card:hover img {
+  border: 10px solid #ec244e;
 }
-.roadmap_section{
-    max-width: 1900px;
-    margin: 0 auto;
-    padding-top: 150px;
+.roadmap_section {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding-top: 150px;
 }
-.roadmap_section>.roadmap_image
-{
-    padding-right: 80px;
+.roadmap_section > .roadmap_image {
+  padding-right: 80px;
 }
-.roadmap_sub_text{
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 70px;
+.roadmap_sub_text {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 70px;
 }
-.roadmap_card{
-    text-align: center;
-    background: linear-gradient(148.1deg, rgba(0, 0, 0, 0.5) 0%, rgba(58, 58, 58, 0) 100%);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 1px 24px -1px rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(24px);
-    border-radius: 20px;
-    padding: 30px 15px;
-    margin-bottom: 25px;
+.roadmap_card {
+  text-align: center;
+  background: linear-gradient(
+    148.1deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(58, 58, 58, 0) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 24px -1px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+  border-radius: 20px;
+  padding: 30px 15px;
+  margin-bottom: 25px;
 }
-.roadmap_card img{
-    height: 120px;
+.roadmap_card img {
+  height: 120px;
 }
-.roadmap_card h5{
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 15px;
+.roadmap_card h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
-.roadmap_card span{
-    font-size: 16px;
-    color: #ADAFBB;
-    margin-bottom: 0;
+.roadmap_card span {
+  font-size: 16px;
+  color: #adafbb;
+  margin-bottom: 0;
 }
-.roadmap_card.list1 h5{
-    color: #AFB42B;
+.roadmap_card.list1 h5 {
+  color: #afb42b;
 }
-.roadmap_card.list2 h5{
-    color: #FBC02D;
+.roadmap_card.list2 h5 {
+  color: #fbc02d;
 }
-.roadmap_card.list3 h5{
-    color: #F57C00;
+.roadmap_card.list3 h5 {
+  color: #f57c00;
 }
-.roadmap_card.list4 h5{
-    color: #FF3D00;
+.roadmap_card.list4 h5 {
+  color: #ff3d00;
 }
 
 /* road map image test set  */
-.roadmap_image{
-    position: relative;
+.roadmap_image {
+  position: relative;
 }
-.roadmap_line
-{
-    position: absolute;
-    width: 230px
+.roadmap_line {
+  position: absolute;
+  width: 230px;
 }
-.roadmap_line h5{
-    font-size: 32px;
-    margin-bottom: 20px;
-    font-weight: 700;
+.roadmap_line h5 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
-.roadmap_line span{
-    font-size: 18px;
-    color: #ADAFBB;
+.roadmap_line span {
+  font-size: 18px;
+  color: #adafbb;
 }
-.list_one_text h5{
-    color: #AFB42B;
+.list_one_text h5 {
+  color: #afb42b;
 }
-.list_two_text h5{
-    color: #FBC02D;
+.list_two_text h5 {
+  color: #fbc02d;
 }
-.list_three_text h5{
-    color: #F57C00;
+.list_three_text h5 {
+  color: #f57c00;
 }
-.list_four_text h5{
-    color: #FF3D00;
+.list_four_text h5 {
+  color: #ff3d00;
 }
-@media (min-width:1800px){
-    .list_one_text{
-        left: 339px;
-        top: 263px;
-    }
-    .list_two_text{
-        left: 680px;
-        top: 263px;
-    }
-    .list_three_text{
-        left: 990px;
-        bottom: 10px;
-    }
-    .list_four_text{
-        left: 1325px;
-        bottom: 10px;
-    }
+@media (min-width: 1800px) {
+  .list_one_text {
+    left: 339px;
+    top: 263px;
+  }
+  .list_two_text {
+    left: 680px;
+    top: 263px;
+  }
+  .list_three_text {
+    left: 990px;
+    bottom: 10px;
+  }
+  .list_four_text {
+    left: 1325px;
+    bottom: 10px;
+  }
 }
-@media (max-width:1799px){
-    .list_one_text {
-        left: 18%;
-        top: 30%;
-    }
-    .list_two_text{
-        left: 37%;
-        top: 30%;
-    }
-    .list_three_text{
-        left: 55%;
-        bottom: 10px;
-    }
-    .list_four_text{
-        left: 73%;
-        bottom: 10px;
-    }
+@media (max-width: 1799px) {
+  .list_one_text {
+    left: 18%;
+    top: 30%;
+  }
+  .list_two_text {
+    left: 37%;
+    top: 30%;
+  }
+  .list_three_text {
+    left: 55%;
+    bottom: 10px;
+  }
+  .list_four_text {
+    left: 73%;
+    bottom: 10px;
+  }
 }
-@media (max-width:1600px){
-    .roadmap_line h5{
-        margin-bottom: 10px;
-    }
-    .roadmap_section>.roadmap_image
-    {
-        padding-right: 30px;
-    }
-    .list_one_text {
-        left: 19%;
-        top: 30%;
-    }
-    .list_two_text{
-        left: 38%;
-        top: 30%;
-    }
-    .list_three_text{
-        left: 56%;
-        bottom: 0;
-    }
-    .list_four_text{
-        left: 74%;
-        bottom: 0;
-    }
+@media (max-width: 1600px) {
+  .roadmap_line h5 {
+    margin-bottom: 10px;
+  }
+  .roadmap_section > .roadmap_image {
+    padding-right: 30px;
+  }
+  .list_one_text {
+    left: 19%;
+    top: 30%;
+  }
+  .list_two_text {
+    left: 38%;
+    top: 30%;
+  }
+  .list_three_text {
+    left: 56%;
+    bottom: 0;
+  }
+  .list_four_text {
+    left: 74%;
+    bottom: 0;
+  }
 }
-@media (max-width:1400px){
-    .roadmap_line span {
-        font-size: 17px;
-    }
+@media (max-width: 1400px) {
+  .roadmap_line span {
+    font-size: 17px;
+  }
 }
-
 
 /* road map image test set done */
 
-.footer_line{
-    background-image: url(../images/techrate_line.png),linear-gradient(0deg, #000 calc(100% - 220px), #141415 220px);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-color: #000;
+.footer_line {
+  background-image: url(../images/techrate_line.png),
+    linear-gradient(0deg, #000 calc(100% - 220px), #141415 220px);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #000;
 }
-.footer_line .line_spacing{
-    height: 80px;
-    background-color: transparent;
+.footer_line .line_spacing {
+  height: 80px;
+  background-color: transparent;
 }
-.footer_section .footer_content{
-    padding: 350px 0 50px 0;
+.footer_section .footer_content {
+  padding: 350px 0 50px 0;
 }
-.footer_link ul{
-    list-style-type: none;
-    margin: 50px 0 50px 0;
-    padding: 0;
+.footer_link ul {
+  list-style-type: none;
+  margin: 50px 0 50px 0;
+  padding: 0;
 }
-.footer_link ul li{
-    display: inline;
-    margin: 0 22px;
+.footer_link ul li {
+  display: inline;
+  margin: 0 22px;
 }
-.footer_link ul li a{
-    font-size: 18px;
-    text-transform: uppercase;
+.footer_link ul li a {
+  font-size: 18px;
+  text-transform: uppercase;
 }
-.social_link ul{
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 50px;
+.social_link ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 50px;
 }
-.social_link ul li{
-    display: inline;
-    margin: 0 15px;
+.social_link ul li {
+  display: inline;
+  margin: 0 15px;
 }
-.copy_right{
-    color: #ADAFBB;
-    font-size: 18px;
+.copy_right {
+  color: #adafbb;
+  font-size: 18px;
 }
 /* modal css  */
-.my_modal .modal-content{
-    background-color: #141414;
-    border-radius: 18px;
+.my_modal .modal-content {
+  background-color: #141414;
+  border-radius: 18px;
 }
 
-.close_popup{
-    background: none;
-    border: none;
+.close_popup {
+  background: none;
+  border: none;
 }
-.modal-header{
-    padding: 30px;
-    border-bottom: 1px solid #383838;
+.modal-header {
+  padding: 30px;
+  border-bottom: 1px solid #383838;
 }
-.my_modal .modal-title{
-    font-size: 35px;
-    font-weight: 700;
+.my_modal .modal-title {
+  font-size: 35px;
+  font-weight: 700;
 }
-.my_modal .modal-body{
-    padding: 30px;
-    border-radius: 15px;
+.my_modal .modal-body {
+  padding: 30px;
+  border-radius: 15px;
 }
-.list_modal{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.list_modal {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.list_modal li{
-    position: relative;
-    padding-left: 90px;
-    margin-bottom: 35px;
+.list_modal li {
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 35px;
 }
-.list_modal li>span{
-    position: absolute;
-    left: 0;
-    top: 10px;
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    background: #CF1545;
-    color: #fff;
+.list_modal li > span {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background: #cf1545;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.list_modal li > p {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.list_modal li {
+  font-size: 21px;
+  line-height: 35px;
+}
+@media (max-width: 1200px) {
+  .home_banner_text h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+  .home_banner_text h1 span {
+    font-size: 100px;
+  }
+  .home_banner_outer {
+    padding-bottom: 220px;
+  }
+  .video_section {
+    padding-bottom: 50px;
+  }
+  .tokenomics_section {
+    padding-top: 200px;
+  }
+  .info_card {
+    margin-top: 70px;
+  }
+  .techrate_audit {
+    padding: 140px 0 240px 0;
+  }
+  .team_section {
+    padding: 170px 0 50px 0;
+  }
+  .roadmap_section {
+    padding-top: 100px;
+  }
+  .roadmap_sub_text {
+    margin: 40px 0;
+  }
+  .footer_line {
+    background-image: url(../images/techrate_line.png),
+      linear-gradient(0deg, #000 calc(100% - 80px), #141415 80px);
+  }
+  .footer_section .footer_content {
+    padding: 150px 0 50px 0;
+  }
+}
+@media (max-width: 992px) {
+  .home_banner_text {
+    margin-top: -105px;
+  }
+  .home_banner_outer {
+    padding-bottom: 250px;
+  }
+  .video_section {
+    padding-bottom: 10px;
+  }
+  .app_right_text {
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    font-weight: 700;
+  }
+  .info_card {
+    margin-top: 60px;
+  }
+  .techrate_audit {
+    padding: 150px 0 200px 0;
+  }
+  .home_banner_text {
+    text-align: center;
+  }
+  .team_section {
+    padding: 150px 0 50px 0;
+  }
+  .team_bg .col-lg-3 {
+    padding: 0 15px;
+  }
+  .team_section .common_heading {
+    margin-bottom: 80px;
+  }
+  .roadmap_section {
+    padding-top: 100px;
+  }
+  .roadmap_sub_text {
+    margin-top: 40px;
+  }
+  .footer_section .footer_content {
+    background-image: url(../images/techrate_line.png),
+      linear-gradient(0deg, #000 calc(100% - 50px), #141415 50px);
+  }
+  .footer_section .footer_content {
+    padding: 110px 0 50px 0;
+  }
+  .roadmap_section > .roadmap_image {
+    padding-right: 30px;
+  }
+  .list_modal li {
+    padding-left: 70px;
+    font-size: 19px;
+  }
+  .list_modal li > span {
+    height: 50px;
+    width: 50px;
+    font-size: 28px;
+  }
+  .my_modal .modal-title {
+    font-size: 28px;
+  }
+  .list_modal li > p {
+    font-size: 22px;
+  }
 }
-.list_modal li>p{
-    font-size: 26px;
-    color: #fff;
-    font-weight: 700;
+@media (max-width: 768px) {
+  .header .navbar-nav .nav-item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .vedio_tag {
+    height: 400px !important;
+  }
+  .home_banner_outer {
+    padding-bottom: 165px;
+  }
+  .home_banner_text p {
+    font-size: 20px;
     margin-bottom: 10px;
+  }
+  .home_banner_text h1 {
+    font-size: 70px;
+    line-height: 75px;
+  }
+  .home_banner_text h1 span {
+    font-size: 75px;
+  }
+  .red_btn {
+    padding: 15px 50px;
+  }
+  .outline_btn {
+    padding: 15px 36px;
+  }
+  .video_app_outer {
+    background-position: right -125px top 32%;
+    background-size: 250px;
+  }
+  .app_section {
+    padding-top: 70px;
+  }
+  .common_heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .tokenomics_card {
+    padding: 40px 10px 40px 10px;
+  }
+  .nft_text h3 {
+    font-size: 26px;
+    line-height: 40px;
+    margin: 15px 0 20px 0;
+  }
+  .nft_text ul li {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+  .info_text h3 {
+    font-size: 26px;
+  }
+  .techrate_audit {
+    padding: 80px 0 100px 0;
+  }
+  .techrate_text h3 {
+    margin-bottom: 25px;
+  }
+  .team_section {
+    padding: 70px 0 50px 0;
+  }
+  .team_section .common_heading {
+    margin-bottom: 30px;
+  }
+  .team_section .team_bg {
+    background: none;
+  }
+  .team_card {
+    transform: none;
+    background-color: #000;
+    box-shadow: 4px -2px 40px rgb(255 255 255 / 10%);
+    border-radius: 10px;
+    padding: 50px 20px;
+    margin-top: 30px;
+  }
+  .team_card:hover {
+    transform: none;
+  }
+  .team_card:hover img {
+    border: 10px solid #fff;
+  }
+  .roadmap_section {
+    padding-top: 50px;
+  }
+  .roadmap_sub_text {
+    margin: 25px 0 30px 0;
+  }
+  .footer_section .footer_content {
+    background-image: url(../images/techrate_line.png),
+      linear-gradient(0deg, #000 calc(100% - 50px), #141415 50px);
+    padding: 120px 0 50px 0;
+  }
+  .footer_content .logo img {
+    height: 150px;
+  }
+  .footer_link ul li {
+    margin: 0 0 15px 0;
+    display: block;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .header .navbar-nav .red_btn {
+    padding: 9px 50px;
+    margin-top: 10px;
+  }
 }
-.list_modal li{
+@media (max-width: 576px) {
+  p {
+    font-size: 16px;
+  }
+  .home_banner_outer {
+    padding-bottom: 135px;
+  }
+  .home_banner_text {
+    margin-top: -50px;
+  }
+  .home_banner_text .button_group {
+    max-width: 80%;
+    margin: 30px auto 0 auto;
+  }
+  .home_banner_text .button_group a:first-child {
+    margin-bottom: 15px;
+  }
+  .home_banner_text .button_group a {
+    display: block;
+  }
+  .vedio_tag {
+    height: 300px !important;
+  }
+  .red_btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    width: 100%;
+  }
+  .outline_btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+  .playpause {
+    background-size: 50px;
+  }
+  .app_section {
+    padding-top: 40px;
+  }
+  .common_heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .store_links a {
+    display: block;
+  }
+  .store_links a img {
+    height: 50px;
+  }
+  .tokenomics_section {
+    padding-top: 80px;
+  }
+  .tokenomics_card {
+    padding: 40px 20px;
+  }
+  .tokenomics_card img {
+    height: 100px;
+  }
+  .tokenomics_card h4 {
+    margin: 18px 0 10px 0;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .tokenomics_card h3 {
+    margin-bottom: 12px;
     font-size: 21px;
-    line-height: 35px;
-
+    line-height: 34px;
+  }
+  .tokenomics_card p {
+    font-size: 16px;
+  }
+  .tokenomics_card ul li {
+    font-size: 16px;
+  }
+  .info_card {
+    margin-top: 30px;
+  }
+  .info_text h3 {
+    margin: 5px 0;
+  }
+  .techrate_audit {
+    padding: 60px 0;
+  }
+  .techrate_text h3 {
+    margin-bottom: 12px;
+  }
+  .techrate_text p {
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .nft_section {
+    padding-bottom: 50px;
+  }
+  .nft_text h3 {
+    font-size: 23px;
+    line-height: 34px;
+    margin: 10px 0 10px 0;
+  }
+  .nft_text p {
+    line-height: 30px;
+    margin-bottom: 17px;
+  }
+  .nft_text ul li {
+    line-height: 29px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-size: 27px;
+    padding-left: 37px;
+  }
+  .team_section {
+    padding: 50px 0 45px 0;
+  }
+  .team_section .common_heading {
+    margin-bottom: 10px;
+  }
+  .team_card {
+    padding: 35px 20px;
+  }
+  .team_card img {
+    height: 130px;
+    width: 130px;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+  }
+  .team_card h3 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .roadmap_section {
+    padding-top: 30px;
+  }
+  .roadmap_sub_text {
+    margin: 18px 0 24px 0;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .roadmap_card img {
+    height: 100px;
+  }
+  .roadmap_card {
+    padding: 30px 25px;
+  }
+  .roadmap_card h5 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .footer_section .footer_content {
+    padding: 90px 0 10px 0;
+  }
+  .footer_link ul {
+    margin: 35px 0 35px 0;
+  }
+  .footer_content .logo img {
+    height: 130px;
+  }
+  .footer_link ul li a {
+    font-size: 16px;
+  }
+  .social_link ul {
+    margin-bottom: 35px;
+  }
+  .copy_right {
+    font-size: 16px;
+  }
+  .my_modal .modal-body {
+    padding: 15px;
+  }
 }
-@media (max-width:1200px){
-    .home_banner_text h1{
-        font-size: 90px;
-        line-height: 100px;
-    }
-    .home_banner_text h1 span{
-        font-size: 100px;
-    }
-    .home_banner_outer {
-        padding-bottom: 220px;
-    }
-    .video_section {
-        padding-bottom: 50px;
-    }
-    .tokenomics_section{
-        padding-top: 200px;
-    }
-    .info_card{
-        margin-top: 70px;
-    }
-    .techrate_audit{
-        padding: 140px 0 240px 0;
-    }
-    .team_section{
-        padding: 170px 0 50px 0;
-    }
-    .roadmap_section {
-        padding-top: 100px;
-    }
-    .roadmap_sub_text{
-        margin: 40px 0;
-    }
-    .footer_line {
-        background-image: url(../images/techrate_line.png),linear-gradient(0deg, #000 calc(100% - 80px), #141415 80px);
-    }
-    .footer_section .footer_content {
-        padding: 150px 0 50px 0;
-    }
+.slide_up,
+.slide_left,
+.slide_right,
+.zoom_in {
+  opacity: 0;
 }
-@media (max-width:992px){
-    .home_banner_text{
-        margin-top: -105px;
-    }
-    .home_banner_outer{
-        padding-bottom: 250px;
-    }
-    .video_section{
-        padding-bottom: 10px;
-    }
-    .app_right_text{
-        text-align: center;
-    }
-    .info_card{
-        margin-top: 60px;
-    }
-    .techrate_audit{
-        padding: 150px 0 200px 0;
-    }
-    .home_banner_text{
-        text-align: center;
-    }
-    .team_section{
-        padding: 150px 0 50px 0;
-    }
-    .team_bg .col-lg-3 {
-        padding: 0 15px;
-    }
-    .team_section .common_heading{
-        margin-bottom: 80px;
-    }
-    .roadmap_section{
-        padding-top: 100px;
-    }
-    .roadmap_sub_text{
-        margin-top: 40px;
-    }
-    .footer_section .footer_content{
-        background-image: url(../images/techrate_line.png),linear-gradient(0deg, #000 calc(100% - 50px), #141415 50px);
-    }
-    .footer_section .footer_content{
-        padding: 110px 0 50px 0;
-    }
-    .roadmap_section>.roadmap_image {
-        padding-right: 30px;
-    }
-    .list_modal li{
-        padding-left: 70px;
-        font-size: 19px;
-    }
-    .list_modal li>span{
-        height: 50px;
-        width: 50px;
-        font-size: 28px;
-    }
-    .my_modal .modal-title{
-        font-size: 28px;
-    }
-    .list_modal li>p{
-        font-size: 22px;
-    }
-
+.opacity1 {
+  opacity: 1;
 }
-@media (max-width:768px){
-    .header .navbar-nav .nav-item:not(:last-child){
-        margin-right: 0px;
-    }
-    .vedio_tag{
-        height: 400px !important;
-    }
-    .home_banner_outer{
-        padding-bottom: 165px;
-    }
-    .home_banner_text p{
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .home_banner_text h1{
-        font-size: 70px;
-        line-height: 75px;
-    }
-    .home_banner_text h1 span{
-        font-size: 75px;
-    }
-    .red_btn{
-        padding: 15px 50px;
-    }
-    .outline_btn{
-        padding: 15px 36px;
-    }
-    .video_app_outer{
-        background-position: right -125px top 32%;
-        background-size: 250px;
-    }
-    .app_section{
-        padding-top: 70px;
-
-    }
-    .common_heading{
-        font-size: 40px;
-        line-height: 48px;
-    }
-    .tokenomics_card{
-        padding: 40px 10px 40px 10px;
-    }
-    .nft_text h3
-    {
-        font-size: 26px;
-        line-height: 40px;
-        margin: 15px 0 20px 0;
-    }
-    .nft_text ul li{
-        font-size: 18px;
-        line-height: 36px;
-        margin-bottom: 10px;
-    }
-    .info_text h3{
-        font-size: 26px;
-    }
-    .techrate_audit {
-        padding: 80px 0 100px 0;
-    }
-    .techrate_text h3{
-        margin-bottom:  25px ;
-    }
-    .team_section{
-        padding: 70px 0 50px 0;
-    }
-    .team_section .common_heading{
-        margin-bottom: 30px;
-    }
-    .team_section .team_bg{
-        background: none;
-    }
-    .team_card{
-        transform: none;
-        background-color: #000;
-        box-shadow: 4px -2px 40px rgb(255 255 255 / 10%);
-        border-radius: 10px;
-        padding: 50px 20px;
-        margin-top: 30px;
-    }
-    .team_card:hover{
-        transform: none;
-    }
-    .team_card:hover img{
-        border: 10px solid #fff;
-    }
-    .roadmap_section {
-        padding-top: 50px;
-    }
-    .roadmap_sub_text{
-        margin: 25px 0 30px 0;
-    }
-    .footer_section .footer_content {
-        background-image: url(../images/techrate_line.png),linear-gradient(0deg, #000 calc(100% - 50px), #141415 50px);
-        padding: 120px 0 50px 0;
-    }
-    .footer_content .logo img{
-        height: 150px;
-    }
-    .footer_link ul li{
-        margin:  0 0 15px 0;
-        display: block;
-    }
-    .navbar-toggler:focus{
-        outline: none;
-        box-shadow: none;
-    }
-    .header .navbar-nav .red_btn{
-        padding: 9px 50px;
-        margin-top: 10px;
-    }
+@media (max-width: 1200px) {
+  .roadmap_section {
+    max-width: 100%;
+  }
 }
-@media (max-width:576px){
-    p{
-        font-size: 16px;
-    }
-    .home_banner_outer {
-        padding-bottom: 135px;
-    }
-    .home_banner_text {
-        margin-top: -50px;
-    }
-    .home_banner_text .button_group {
-        max-width: 80%;
-        margin: 30px auto 0 auto;
-    }
-    .home_banner_text .button_group a:first-child{
-        margin-bottom: 15px;
-    }
-    .home_banner_text .button_group a{
-        display: block;
-    }
-    .vedio_tag {
-        height: 300px !important;
-    }
-    .red_btn {
-        padding: 12px 30px;
-        font-size: 16px;
-        width: 100%;
-    }
-    .outline_btn {
-        padding: 12px 30px;
-        font-size: 16px;
-    }
-    .playpause{
-        background-size: 50px;
-    }
-    .app_section {
-        padding-top: 40px;
-    }
-    .common_heading {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .store_links a{
-        display: block;
-    }
-    .store_links a img{
-        height: 50px;
-    }
-    .tokenomics_section {
-        padding-top: 80px;
-    }
-    .tokenomics_card{
-        padding: 40px 20px;
-    }
-    .tokenomics_card img{
-        height: 100px;
-    }
-    .tokenomics_card h4{
-        margin: 18px 0 10px 0;
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .tokenomics_card h3 {
-        margin-bottom: 12px;
-        font-size: 21px;
-        line-height: 34px;
-    }
-    .tokenomics_card p{
-        font-size: 16px;
-    }
-    .tokenomics_card  ul li{
-        font-size: 16px;
-    }
-    .info_card {
-        margin-top: 30px;
-    }
-    .info_text h3{
-        margin: 5px 0;
-    }
-    .techrate_audit {
-        padding: 60px 0 ;
-    }
-    .techrate_text h3 {
-        margin-bottom:   12px;
-    }
-    .techrate_text p {
-        line-height: 30px;
-        margin-bottom: 10px;
-    }
-    .nft_section{
-        padding-bottom: 50px;
-    }
-    .nft_text h3 {
-        font-size: 23px;
-        line-height: 34px;
-        margin: 10px 0 10px 0;
-    }
-    .nft_text p {
-        line-height: 30px;
-        margin-bottom: 17px;
-    }
-    .nft_text ul li {
-        line-height: 29px;
-        margin-bottom: 10px;
-        font-size: 16px;
-        background-size: 27px;
-        padding-left: 37px;
-    }
-    .team_section {
-        padding: 50px 0 45px 0;
-    }
-    .team_section .common_heading {
-        margin-bottom: 10px;
-    }
-    .team_card{
-        padding: 35px 20px;
-    }
-    .team_card img{
-        height: 130px;
-        width: 130px;
-        border: 5px solid #fff;
-        margin-bottom: 20px;
-    }
-    .team_card h3{
-        font-size: 22px;
-        line-height: 36px;
-    }
-    .roadmap_section {
-        padding-top: 30px;
-    }
-    .roadmap_sub_text {
-        margin: 18px 0 24px 0;
-        font-size: 20px;
-        line-height: 29px;
-    }
-    .roadmap_card img {
-        height: 100px;
-    }
-    .roadmap_card{
-        padding: 30px 25px;
-    }
-    .roadmap_card h5{
-        font-size: 24px;
-        margin-bottom: 12px;
-    }
-    .footer_section .footer_content{
-        padding: 90px 0 10px 0;
-    }
-    .footer_link ul{
-        margin: 35px 0 35px 0;
-    }
-    .footer_content .logo img {
-        height: 130px;
-    }
-    .footer_link ul li a{
-        font-size: 16px;
-    }
-    .social_link ul{
-        margin-bottom: 35px;
-    }
-    .copy_right{
-        font-size: 16px;
-    }
-    .my_modal .modal-body{
-        padding: 15px;
-    }
+.contract {
+  cursor: pointer;
+  margin-top: 15px;
 }
-.slide_up,.slide_left,.slide_right,.zoom_in{
-    opacity: 0;
+.contract_input {
+  font-size: 14px;
+  border: none;
+  background-color: transparent !important;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
 }
-.opacity1{
-    opacity: 1;
+@media (max-width: 992px) {
+  .contract {
+    justify-content: center;
+  }
+  .contract .col-2 {
+    width: auto;
+  }
+  .contract .col-8 {
+    width: 380px;
+  }
 }
-@media (max-width:1200px){
-    .roadmap_section{
-        max-width: 100%;
-    }
-}
-.contract{
-    cursor: pointer;
-    margin-top: 15px;
-}
-.contract_input{
-    font-size: 14px;
-    border: none;
-    background-color: transparent !important;
-    padding: 0;
-    color: #fff;
-    cursor: pointer;
-}
-@media(max-width:992px){
-    .contract{
-        justify-content: center;
-    }
-    .contract .col-2{
-        width: auto;
-    }
-    .contract .col-8{
-        width: 380px;
-    }
-}
-@media(max-width:580px){
-    .contract_input{
-        font-size: 12px;  
-        text-align: center;     
-    }
-    .contract .label{
-        font-size: 12px;
-    }
-    .contract .col-8{
-        width: 100%;        
-    }
+@media (max-width: 580px) {
+  .contract_input {
+    font-size: 12px;
+    text-align: center;
+  }
+  .contract .label {
+    font-size: 12px;
+  }
+  .contract .col-8 {
+    width: 100%;
+  }
 }
