@@ -51,23 +51,23 @@ p {
   font-family: Alphacentauri;
   font-size: 48px;
   line-height: 60px;
-  text-shadow: 4px 4px 10px #cf1545;
+  text-shadow: 4px 4px 10px #069102;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 .red_btn {
-  background-color: #cf1545;
+  background-color: #069102;
   font-weight: 700;
   font-size: 18px;
   padding: 20px 64px;
   border-radius: 50px;
   color: #fff;
-  border: 2px solid #cf1545;
+  border: 2px solid #069102;
   display: inline-block;
 }
 .outline_btn {
   background-color: transparent;
-  border: 2px solid #cf1545;
+  border: 2px solid #069102;
   font-weight: 700;
   font-size: 18px;
   padding: 20px 36px;
@@ -593,7 +593,7 @@ p {
   height: 65px;
   width: 65px;
   border-radius: 50%;
-  background: #cf1545;
+  background: #069102;
   color: #fff;
   text-align: center;
   display: flex;
